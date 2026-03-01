@@ -8,14 +8,14 @@ from flask import send_from_directory
 
 app = Flask(__name__)
 DB_PATH = '/root/my_bot/mark_empire_final.db'
-TOKEN = "8487661199:AAEVvRZSf7QtDkq_BIVX_8aFV9PFH4W-yuw"
+TOKEN = "84"
 
 GUYS_MODERATORS = {
-    "Матвей 19 лет": 7399076743,
-    "Мафия 18": 7750309002,
-    "Марк 25 лет": 292401681, 
-    "Саня 17": 6450198470,
-    "Кларк 20": 5241063884
+    "Матвей 19 лет": 733,
+    "Мафия 18": 702,
+    "Марк 25 лет": 2681, 
+    "Саня 17": 6470,
+    "Кларк 20": 52484
 }
 
 
