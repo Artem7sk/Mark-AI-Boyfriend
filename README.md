@@ -45,7 +45,7 @@ python main.py
 Если Mark AI приносит вам пользу или помогает в разработке ваших проектов, вы можете поддержать автора. Ваши донаты помогают оплачивать сервер (MARVEL) и API ключи для развития ИИ.
 
 💳 Стандартные способы
-Boosty:  (Карты, PayPal, СНГ/Мир)
+Boosty: https://boosty.to/artem7sk   (Карты, PayPal, СНГ/Мир)
 
 DonationAlerts: https://www.donationalerts.com/r/moyparen
 
@@ -62,4 +62,4 @@ Ethereum / USDT (ERC20): 0x027a11eb651bf737e93e0828f74203629efe386a
 📜 Лицензия / License
 Распространяется под лицензией MIT. Вы можете использовать код в своих проектах, указав авторство.
 
-Developed with ❤️ by [[ТВОЙ_НИК](moydomsnylia1]
+Developed with ❤️ by (moydomsnylia1]
