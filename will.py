@@ -5,7 +5,7 @@ import os
 import subprocess
 from datetime import datetime
 
-TOKEN = '8533291013:AAFn0nTq0f2GXqnQhi1cZdY5XalCzFH04oU'
+TOKEN = '85FH04oU'
 bot = telebot.TeleBot(TOKEN)
 
 def main_markup():
