@@ -8,7 +8,11 @@ from flask import send_from_directory
 
 app = Flask(__name__)
 DB_PATH = '/root/my_bot/mark_empire_final.db'
-TOKEN = "84"
+from aiogram import F, types
+from aiogram.types import LabeledPrice, PreCheckoutQuery
+load_dotenv()
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+
 
 GUYS_MODERATORS = {
     "Матвей 19 лет": 733,
