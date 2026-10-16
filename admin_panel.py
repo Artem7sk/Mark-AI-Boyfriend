@@ -5,6 +5,8 @@ import requests
 import json
 from datetime import datetime, timedelta
 from flask import send_from_directory
+import os
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 DB_PATH = '/root/my_bot/mark_empire_final.db'
@@ -279,7 +281,7 @@ def get_db_connection():
     return conn
 
 def send_telegram_msg(uid,text):
-    url=f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+    url=f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     try: requests.post(url,json={"chat_id":uid,"text":text,"parse_mode":"Markdown"})
     except: pass
 import time # Не забудь импортировать time в начале файла

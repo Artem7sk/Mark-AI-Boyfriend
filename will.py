@@ -5,7 +5,7 @@ import os
 import subprocess
 from datetime import datetime
 
-TOKEN = 'REDACTED_BOT_TOKEN'
+TOKEN = os.environ.get('BOT_TOKEN', '')  # токен берётся из переменной окружения
 bot = telebot.TeleBot(TOKEN)
 
 def main_markup():
